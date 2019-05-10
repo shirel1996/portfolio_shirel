@@ -1,0 +1,304 @@
+body 
+{
+    direction:rtl;
+}
+
+/*הגדרת גודל העמוד, ותמונת רקע כללית*/
+#container {
+    background-image: url('../images/tapettt.jpg');
+    width: 960px;
+    height: 720px;
+    margin: 0 auto;
+    position:relative;
+}
+
+
+
+/*הגדרת תמונת רקע לדף הבית*/
+#shirel {
+    background-image: url('../images/home.jpg');
+    width: 960px;
+    height: 720px;
+    background-position: top center;
+    -webkit-transition: all 10s ease;
+    -moz-transition : all 10s ease;
+    -ms-transition:all 10s ease;
+    -o-transition: all 10s ease;
+    transition: all 10s ease;
+}
+
+
+/*הגדרת צבע וגודל לתפריט ניווט*/
+
+nav {
+    background-color: #2f2f33;
+    width: 960px;
+    height: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+   
+}
+nav ul li a
+{
+display: block;
+background-color: #2f2f33;
+color: white;
+width: 120px;
+height: 30px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+}
+    /* הגדרת צבע כאשר לוחצים על הקישורים במעבר בין עמודים ובמעבר עכבר*/
+
+nav ul li a:hover
+{
+background-color: dodgerblue;
+}
+
+.navCurrent{
+    background-color:lightblue;
+}
+
+
+nav ul li ul
+{
+display: none;
+position: absolute;
+}nav ul li:hover > ul
+{
+display:block;
+width:120px;
+}
+/*הגדרת מיקום גודל וצבע של השם שיראל דנינו*/
+#logo h1{
+   text-align:left;
+   color:white;
+   font-size:30pt;
+   position:relative;
+   bottom: 40px;
+   right: 585px;
+   width: 350px;
+}
+
+/*הגדרת מיקום גודל וצבע של ההסבר על עצמי*/
+#greetings {
+    width: 259px;
+    height: 152px;
+    background-color: black;
+    position: relative;
+    top: 30px;
+    right: 550px;
+    text-align: center;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    Opacity: 0.6;
+    font-family: Calibri;
+    color: aliceblue;
+    margin: 30px;
+    padding-top: 14px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+    /*הגדרת אנימציה של ההסבר על עצמי*/
+    #greetings:hover {
+        background-color: black;
+        color: cornflowerblue;
+        width: 300px;
+        height: 200px;
+        font-size: 20px;
+        -webkit-transition: all 2s ease;
+        -moz-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+        -o-transition: all 2s ease;
+        transition: all 2s ease;
+    }
+
+/*הגדרת מיקום וצבע לכותרת העמוד */
+#titalA h1 {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 30pt;
+    position: relative;
+    bottom: 45px;
+    right: 475px;
+    width: 350px;
+}
+
+    
+/*הגדרת מיקום גודל וצבע של ההסבר על פרוייקט הגמר*/
+
+#fineal {
+    width: 342px;
+    height: 236px;
+    background-color: black;
+    position: relative;
+    top: 55px;
+    right: 50px;
+    text-align: center;
+    -webkit-border-radius: 50px;
+    border-radius: 63px;
+    Opacity: 0.6;
+    font-family: Calibri;
+    color: aliceblue;
+    margin: -9px;
+    padding-top: 29px;
+}
+
+    /*הגדרת אנימציה של ההסבר על פרוייקט הגמר*/
+
+    #fineal:hover {
+        background-color: black;
+        opacity: 0.6;
+        color: skyblue;
+    }
+
+/*הגדרת מיקום וגודל של התמונה של פרוייקט הגמר*/
+#finealPic {
+    background-image: url('../images/shirel2.jpg');
+    width: 400px;
+    height: 286px;
+    Opacity: 1.6;
+    position: relative;
+    top: -220px;
+    right: 408px;
+    text-align: center;
+}
+
+
+/*הגדרת מיקום וגודל של סרטון הוידיו של פרוייקט הגמר*/
+    iframe {
+        top: 450px;
+        right: 200px;
+        position: absolute;
+        margin-right: 20px;
+    }
+
+/*הגדרת מיקום גודל וצבע של הכותרת של אירגון ויצוג ידע*/
+
+#titalC h1 {
+    text-align: left;
+    color: #f4f7f4;
+    font-size: 30pt;
+    position: relative;
+    bottom: 44px;
+    right: 475px;
+    width: 350px;
+}
+
+/*הגדרת מיקום גודל וצבע של הרקע על האירגון ויצוג ידע*/
+
+#backgroundNoga {
+    width: 289px;
+    height: 173px;
+    background-color: black;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-family: Calibri;
+    color: white;
+    margin: 5px;
+    padding-top: 14px;
+    Opacity: 0.6;
+}
+
+/*הגדרת מיקום של ההסבר על האירגון ויצוג ידע*/
+#noga {
+
+    position: relative;
+    top: 128px;
+    right: 86px;
+    text-align: center;
+}
+
+/*הגדרת מעבר עכבר שישתנה הצבע של הטקסט על ארגון ועיצוב ידע*/
+#backgroundNoga:hover {
+    color: skyblue;
+}
+
+
+        /*הגדרת מיקום וגודל של התמונה של פרוייקט אירגון ויצוג ידע*/
+        #nogaPic {
+    background-image: url('../images/noga.png');
+    width: 420px;
+    height: 536px;
+    position: relative;
+    bottom: 263px;
+    right: 130px;
+    text-align: center;
+}
+
+/*הגדרת מיקום וצבע לכותרת העמוד של פוסטר */
+
+#titalB h1 {
+    text-align: left;
+    color: white;
+    font-size: 30pt;
+    top: 400px;
+    right: 500px;
+    width: 350px;
+    margin-right: 364px;
+    margin-top: -40px;
+}
+
+/*הגדרת מיקום וגודל של התמונה של נגה*/
+#background {
+    Opacity: 0.6;
+    width: 289px;
+    height: 152px;
+    background-color: black;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-family: Calibri;
+    margin: 5px;
+    padding-top: 14px;
+}
+/*הגדרת מיקום גודל וצבע של ההסבר על הפוסטר*/
+#posterP {
+    position: relative;
+    top: 128px;
+    right: 86px;
+    color: white;
+    text-align: center;
+ 
+}
+
+    /*הגדרת מעבר עכבר שישתנה הצבע של הטקסט על פוסטר*/
+    #posterP:hover {
+        color: skyblue;
+    }
+
+    /*הגדרת מיקום וגודל של התמונה על הפוסטר*/
+    #posterPic {
+        background-image: url('../images/poster2.jpg');
+        width: 440px;
+        height: 622px;
+        position: relative;
+        bottom: 273px;
+        right: 118px;
+        text-align: center;
+    }
+
+
+
+/*הגדרת מיקום של השיר של שודדי הקראיבים*/
+#music1 {
+    position: relative;
+    bottom: 233px;
+    margin-right: 90px;
+
+}
+
+/*הגדרת מיקום של השיר שקשור לספורט*/
+
+#music2 {
+    position: relative;
+    bottom: 180px;
+    margin-right: 67px;
+}
